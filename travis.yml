@@ -1,0 +1,14 @@
+languaje: java
+jdk:
+- oraclejdk8
+before install:
+- pip install --user codecov
+script:
+- mvn deploy --settings settings.xml
+after success:
+- codecov
+cache:
+    directories:
+    - ".autoconf"
+    - "$HOME/.m2"
+
