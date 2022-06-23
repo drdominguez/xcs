@@ -46,7 +46,7 @@
     <shrinkwrap.resolver.bom.version>3.0.0-beta-2</shrinkwrap.resolver.bom.version>
 
 		<!-- Dependencies versions -->
-    <wildfly.version>10.1.0.Final</wildfly.version>
+    <wildfly.version>21.0.1.Final</wildfly.version>
 
 		<!-- Testing dependecies versions -->
     <arquillian.jacoco.version>1.0.0.Alpha9</arquillian.jacoco.version>
